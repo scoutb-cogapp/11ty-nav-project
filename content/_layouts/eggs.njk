@@ -1,3 +1,5 @@
+{ set navPages = collections.all | eleventyNavigation % }
+
 <!doctype html>
 <html lang="en">
   <head>
@@ -8,7 +10,8 @@
   </head>
   <body>
     <div class="content">
-        <p>{{ collections.eggs | eleventyNavigation | eleventyNavigationToHtml | safe }}</p>
+        {{ navPages | dump | safe }}
+
         <h1> {{ title }} </h1>
         {{ content | safe }}
     </div>
