@@ -1,0 +1,18 @@
+html {
+    background-color: #e1dac7;
+  }
+  
+  .content {
+    max-width: 900px;
+    margin: auto;
+  }
+  
+  img {
+    max-width: 900px;
+    margin: auto;
+    border: 3px solid #e1aa46;
+  }
+  
+  p, h1 {
+    color: #56432d;
+  }
